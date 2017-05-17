@@ -19,6 +19,9 @@ status=`cat pwd.json | python -c 'import json,sys;obj=json.load(sys.stdin);print
 if [ "$status" != "in process" ] && [ "$status" != "" ] ; then
         news=`cat pwd.json | python -c 'import json,sys;obj=json.load(sys.stdin);print obj["ROWS"][0][3], obj["ROWS"][0][4]'`
         echo $news | mailx -s "PWD update" -a "From: "$email -r $email
+## kill the running daemon process when some update found        
+        pid=`ps -ef | grep pwd | head -1 | awk '{print $2}'`
+        kill -9 $pid        
 fi
 ## it will check status for every 3 hours
 sleep 3h
