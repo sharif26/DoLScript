@@ -6,10 +6,12 @@ The purpose of the bash script is to get email notification when the exact case 
 
 The python script is inspired by http://www.trackitt.com/ portal and the purpose of this is to monitor which date of prevailing wage is "in process" or "determination issued" when the case number is not known. 
 
-The cookie can be collected from chrome->dev tools->network tab. 
+The cookie can be collected from chrome->dev tools->network tab.  
+
 ![chromedevtool](https://user-images.githubusercontent.com/5523584/35080212-29e82928-fbda-11e7-9bc2-a745e3165d52.PNG)
 
-The python code is tested on python 2.7.X 
+The python code is tested on python 2.7.X and 3.5.X  
 > python pwd.py  
+> python pwd3.py  
 
 Hope it will help all the waiting immigrants!
