@@ -9,7 +9,7 @@ The python script is inspired by http://www.trackitt.com/ portal and the purpose
 The cookie can be collected from chrome->dev tools->network tab. 
 ![chromedevtool](https://user-images.githubusercontent.com/5523584/35080212-29e82928-fbda-11e7-9bc2-a745e3165d52.PNG)
 
-The code is tested on python 2.7.X 
+The python code is tested on python 2.7.X 
 > python pwd.py  
 
 Hope it will help all the waiting immigrants!
