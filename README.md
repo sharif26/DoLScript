@@ -14,4 +14,7 @@ The python code is tested on python 2.7.X and 3.5.X
 > python pwd.py  
 > python pwd3.py  
 
+The python 2 version is updated to take command line argument: 1st one cookie(only the below four param needs to be there, it will append with the rest), 2nd one day part. Please try like below:
+> python pwd.py "CFID=1717363; CFTOKEN=49224215;_gid=GA1.2.839183729.1519657235;_gat=1" "P-100-17348-"
+
 Hope it will help all the waiting immigrants!
